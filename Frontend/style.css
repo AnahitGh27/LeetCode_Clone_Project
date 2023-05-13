@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img {
+    width: 25%;
+  }
+  .problem-description {
+    width: 80%;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  .language-selection {
+    display: flex;
+    margin: 20px 0;
+    gap: 1rem;
+    align-items: center;
+  }
+  .language-selection button {
+    margin-right: 10px;
+  }
+  .function-writing {
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 40rem;
+  }
+
+  .test-submit {
+    margin: 20px 0;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-links li {
+    margin-right: 10px;
+  }
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  main {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #myTextarea {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  /* Media queries */
+  @media (max-width: 767px) {
+    .hero {
+      padding: 50px 0;
+    }
+    .hero h2 {
+      font-size: 2rem;
+    }
+    .hero input[type="text"] {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .problem {
+      width: calc(50% - 20px);
+    }
+  }
+  @media (max-width: 479px) {
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+    .problem {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
