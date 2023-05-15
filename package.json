@@ -1,0 +1,16 @@
+{
+  "name": "leetcode-clone-project",
+  "version": "1.0.0",
+  "description": "LeetCode CLone Project",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
